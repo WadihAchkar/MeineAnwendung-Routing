@@ -59,7 +59,7 @@ As our application grows more complex, we might want to create routes that are r
 
 
 7) Understanding the following code blocks:
-     ----------------------------------------
+  -----------------------------------------
 
 .......................... First block .........................
 
