@@ -22,8 +22,8 @@ const routes: Routes = [
     ]
   },
   { path: 'second-component', component: SecondComponent },
-  // { path: '', redirectTo: '/first-component', pathMatch: 'full' },
-  // { path: '**', component: NotFoundComponent }
+  { path: '', redirectTo: '/first-component', pathMatch: 'full' },
+  { path: '**', component: NotFoundComponent }
 ]
 
 @NgModule({
