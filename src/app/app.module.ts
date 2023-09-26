@@ -8,6 +8,7 @@ import { SecondComponent } from './second/second.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ChildaComponent } from './childa/childa.component';
 import { ChildbComponent } from './childb/childb.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ChildbComponent } from './childb/childb.component';
     SecondComponent,
     NotFoundComponent,
     ChildaComponent,
-    ChildbComponent
+    ChildbComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,

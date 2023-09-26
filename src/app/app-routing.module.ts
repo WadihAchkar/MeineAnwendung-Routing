@@ -5,8 +5,7 @@ import { SecondComponent } from './second/second.component'
 import { NotFoundComponent } from './not-found/not-found.component'
 import { ChildaComponent } from './childa/childa.component'
 import { ChildbComponent } from './childb/childb.component'
-import { finnGuard } from './finn.guard'
-import { combineLatest } from 'rxjs'
+import { HomePageComponent } from './home-page/home-page.component'
 
 // The path-match strategy 'full' matches against the entire URL.
 // It is important to do this when redirecting empty-path routes. Otherwise,
@@ -22,7 +21,8 @@ const routes: Routes = [
     ]
   },
   { path: 'second-component', component: SecondComponent },
-  { path: '', redirectTo: '/first-component', pathMatch: 'full' },
+  // { path: '', redirectTo: '/first-component', pathMatch: 'full' },
+  { path: '', component: HomePageComponent},
   { path: '**', component: NotFoundComponent }
 ]
 
